@@ -1,0 +1,32 @@
+{
+    "name": "calculate-heart-data",
+    "version": "1.0.0",
+    "description": "Script to Calculate Min, Max and Mean Heart Beat of patient",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test" :"tsc && node dist/heartData.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ashrithyalala/heartRate.git"
+    },
+    "author": "Ashrith Assignment",
+    "license": "Internal",
+    "bugs": {
+        "url": "https://github.com/ashrithyalala/heartRate.git"
+    },
+    "homepage": "https://github.com/ashrithyalala/heartRate.git#README",
+    "dependencies": {
+        "@types/node": "^18.0.6",
+        "@types/request": "^2.48.8",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.1.6",
+        "fs-extra": "^10.1.0",
+        "npm": "^8.15.0"
+    },
+    "devDependencies": {
+        "tsc-alias": "^1.8.6"
+    }
+}
